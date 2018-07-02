@@ -1,0 +1,24 @@
+String video 2 - https://www.youtube.com/watch?v=wcqGs9tXPsM&feature=em-share_video_user
+regex match code - 1:25
+prefix search / trie - 39:27
+palindrome pairs - 1:17:50
+Longest repeated substring - 1:42:16
+ - MISSISSIPPI
+ - Longest repeated substr - ISSI
+ 
+
+String problems summary
+1) Sliding window - expand and optimize
+2) Trie - prefix search, Suffix trie
+    - prefix search, palindrome pairs (check in forward and reverse trie), longest repeated substring
+3) Longest Palindrome - from each pos, expand in both directions so long as they match. Do for both odd and even
+    - O(n) - manacher algo
+	- Suffix trie, compact trie / radix tree
+4) Regex matching - recursion
+
+Suffix Tree
+- Longest Repeated Substring
+- Longest common substring
+- most repeated substring
+- Hash of a string is O(n) - as we have to go through all characters to generate hashcode
+  - tree algorithm dfs with backtracking - longest repeated suffix
